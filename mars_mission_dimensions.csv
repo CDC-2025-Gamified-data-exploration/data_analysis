@@ -1,5 +1,0 @@
-dimension,value,description
-rows,147.0,"Mission activities across 1,442 sols"
-columns,47.0,Original + enrichment + weather + temporal features
-total_cells,6909.0,Total data points in dataset
-memory_estimate_mb,0.05271148681640625,Estimated memory usage for float64 data

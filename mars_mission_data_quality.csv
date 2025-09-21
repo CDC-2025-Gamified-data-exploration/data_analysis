@@ -1,8 +1,0 @@
-data_category,column_count,completeness_rate,data_consistency,anomaly_risk,analysis_readiness
-Temporal,1,100.0,High - standardized datetime format,Low - validated timestamps,Ready - no preprocessing needed
-Binary,15,100.0,High - consistent 0/1 encoding,Low - constrained values,Ready - suitable for ML models
-Continuous,16,82.3,Medium - some weather gaps affect consistency,Medium - weather sensor failures,Needs preprocessing - handle missing values
-Categorical,4,100.0,High - standardized categories,Low - controlled vocabulary,Ready - can use directly or encode
-Count,7,95.9,High - monotonic counters,Low - validated increments,Ready - suitable for trend analysis
-Text,1,100.0,Medium - variable activity descriptions,Medium - free text variations,Needs preprocessing - text analysis required
-Ordinal,3,70.1,Medium - ordinal scales 0-3,Low - bounded scales,Ready - treat as continuous or categorical

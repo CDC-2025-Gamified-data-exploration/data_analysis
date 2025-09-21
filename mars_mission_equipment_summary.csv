@@ -1,7 +1,0 @@
-instrument,usage_count,usage_percentage,average_complexity,problem_rate,primary_mission_phase,key_characteristics
-IDA,48,32.7,0.74,0.21,All phases,"Most used, high complexity robotic arm operations"
-HP3,29,19.7,0.68,0.38,Early/Extended,"Persistent operational challenges, many recovery attempts"
-SEIS,34,23.1,0.55,0.15,Primary Science,"Steady science operations, reliable seismic monitoring"
-APSS,19,12.9,0.42,0.11,Primary Science,"Regular weather monitoring, environmental data collection"
-CAMERA,12,8.2,0.51,0.17,Extended,"Documentation and site surveys, less frequent use"
-WTS,15,10.2,0.48,0.2,All phases,"Wind monitoring, consistent but lower usage"
