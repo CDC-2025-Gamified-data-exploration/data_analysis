@@ -1,0 +1,55 @@
+column_name,pandas_dtype,data_category,value_range,memory_usage_bytes,analysis_suitability
+datetime,datetime64[ns],Temporal,2018-11-26 to 2022-12-18,8,"Time series analysis, temporal correlations"
+sol,int64,Discrete,1 to 1442,8,"Sequential analysis, mission progression"
+activity,object,Text,Variable text length,50,"Text mining, NLP analysis"
+solar_longitude_deg,float64,Continuous,0.0 to 360.0,8,"Seasonal analysis, circular statistics"
+year,int64,Discrete,2018 to 2022,8,Temporal grouping
+month,int64,Discrete,1 to 12,8,Seasonal patterns
+day,int64,Discrete,1 to 31,8,Daily patterns
+hour,int64,Discrete,0 to 23,8,Hourly patterns
+day_of_year,int64,Discrete,1 to 366,8,Yearly cycles
+weekday,int64,Categorical,0 to 6,8,Weekly patterns
+mission_phase,object,Categorical,"Early_Deployment, Primary_Science, Extended_1, Extended_2, Long_Term",20,"Phase comparison, categorical analysis"
+mission_age_factor,float64,Continuous,0.0 to 3.0,8,"Aging trends, regression analysis"
+phase_progression,float64,Continuous,0.0 to 1.0,8,"Progress tracking, time series"
+complexity_score,float64,Continuous,0.0 to 1.0,8,"Complexity evolution, correlation"
+activity_word_count,int64,Discrete,7 to 22,8,Text complexity metrics
+instruction_count,int64,Discrete,1 to 6,8,Task complexity analysis
+systems_involved,int64,Discrete,0 to 6,8,Multi-system analysis
+uses_ida,int64,Binary,"0, 1",8,"Binary classification, co-occurrence"
+uses_hp3,int64,Binary,"0, 1",8,"Binary classification, reliability"
+uses_seis,int64,Binary,"0, 1",8,"Binary classification, performance"
+uses_apss,int64,Binary,"0, 1",8,"Binary classification, environmental"
+uses_camera,int64,Binary,"0, 1",8,"Binary classification, imaging"
+uses_wts,int64,Binary,"0, 1",8,"Binary classification, wind analysis"
+primary_instrument,object,Categorical,"IDA, HP3, SEIS, APSS, CAMERA, WTS",15,"Equipment comparison, usage patterns"
+operational_status,int64,Binary,"0, 1",8,Success/failure analysis
+criticality,int64,Binary,"0, 1",8,Priority analysis
+power_status,int64,Binary,"0, 1",8,Power management analysis
+is_science,int64,Binary,"0, 1",8,Science productivity metrics
+is_maintenance,int64,Binary,"0, 1",8,Maintenance scheduling
+is_deployment,int64,Binary,"0, 1",8,Deployment tracking
+is_recovery,int64,Binary,"0, 1",8,Problem resolution analysis
+is_thermal,int64,Binary,"0, 1",8,Thermal management
+is_communication,int64,Binary,"0, 1",8,Communication efficiency
+operational_tempo,float64,Continuous,0.0 to 1.0,8,Activity intensity analysis
+requires_movement,int64,Binary,"0, 1",8,Movement planning
+power_intensive,int64,Binary,"0, 1",8,Power optimization
+data_intensity,float64,Continuous,0.0 to 1.0,8,Data management efficiency
+weather_avg_temp,float64,Continuous,-89.2 to -42.1,8,"Environmental correlation, regression"
+weather_temp_severity,float64,Ordinal,0 to 3,8,Severity impact analysis
+weather_wind_intensity,float64,Ordinal,0 to 3,8,Wind impact studies
+weather_atmospheric_instability,float64,Ordinal,0 to 3,8,Atmospheric modeling
+BMY_HORIZONTAL_WIND_SPEED,float64,Continuous,0.8 to 9.4,8,Meteorological analysis
+weather_time_diff_hours,float64,Continuous,0.0 to 3.0,8,Data quality assessment
+seasonal_intensity,float64,Continuous,0.0 to 1.0,8,Seasonal correlation analysis
+orbital_thermal_factor,float64,Continuous,0.0 to 1.0,8,Orbital mechanics correlation
+diurnal_thermal_load,float64,Continuous,0.0 to 1.0,8,Diurnal cycle analysis
+thermal_stress_combined,float64,Continuous,0.0 to 3.0,8,Thermal stress modeling
+sols_since_last_science,float64,Continuous,0.0 to 400+,8,Activity scheduling optimization
+sols_since_last_maintenance,float64,Continuous,0.0 to 400+,8,Maintenance prediction
+sols_since_last_deployment,float64,Continuous,0.0 to 1400+,8,Deployment planning
+cumulative_ida_usage,int64,Count,0 to 30,8,Equipment usage tracking
+cumulative_hp3_usage,int64,Count,0 to 35,8,Heat probe analysis
+cumulative_seis_usage,int64,Count,0 to 70,8,Seismometer performance
+sols_to_next_milestone,int64,Count,0 to 100,8,Mission planning

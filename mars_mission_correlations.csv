@@ -1,0 +1,9 @@
+variable_pair,correlation,strength,interpretation
+mission_age_factor vs complexity_score,0.34,Moderate,Equipment aging increases activity complexity
+weather_avg_temp vs operational_status,-0.28,Weak,Colder temperatures correlate with more problems
+systems_involved vs instruction_count,0.67,Strong,More instruments = more detailed instructions
+thermal_stress_combined vs is_maintenance,0.31,Moderate,Thermal stress increases maintenance needs
+operational_tempo vs criticality,-0.42,Moderate,High activity periods reduce critical events
+sols_since_last_science vs is_science,-0.51,Strong,Regular science scheduling pattern
+phase_progression vs mission_age_factor,0.78,Strong,Mission phases progress with equipment age
+weather_wind_intensity vs power_status,-0.19,Weak,Wind has minimal impact on power systems
