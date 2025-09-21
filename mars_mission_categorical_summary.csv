@@ -1,0 +1,9 @@
+column_name,unique_values,most_frequent,frequency_percent,description
+mission_phase,5,Primary_Science,45.6,Mission phases across 4+ year mission
+primary_instrument,6,IDA,32.7,Primary instrument used in activity
+operational_status,2,1 (normal),78.2,Normal vs problem operations
+criticality,2,1 (routine),68.0,Routine vs critical activities
+is_science,2,1 (science),52.4,Science vs non-science activities
+is_maintenance,2,0 (not maintenance),23.8,Maintenance activities
+is_deployment,2,0 (not deployment),8.8,Equipment deployment activities
+is_recovery,2,0 (not recovery),19.7,Problem recovery activities

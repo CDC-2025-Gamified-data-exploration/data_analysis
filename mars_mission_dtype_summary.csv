@@ -1,0 +1,5 @@
+pandas_dtype,count,percentage,memory_per_row_bytes,total_memory_147_rows,typical_use_case
+datetime64[ns],1,1.7,8,1176,"Temporal analysis, time series"
+int64,33,55.0,8,38808,"Counts, binary flags, discrete values"
+float64,22,36.7,8,25872,"Measurements, ratios, continuous metrics"
+object,4,6.7,25,14700,"Categories, text descriptions, instrument names"
