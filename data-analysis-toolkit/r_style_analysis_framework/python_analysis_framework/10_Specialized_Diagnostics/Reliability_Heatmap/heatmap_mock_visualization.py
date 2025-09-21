@@ -12,7 +12,7 @@ warnings.filterwarnings('ignore')
 class MarsHeatMapVisualizer:
     """
     Mock visualization of Mars Equipment Reliability Heat Map
-    Simulates the C++ implementation functionality in Python
+    Simulates the C# implementation functionality in Python
     """
     
     def __init__(self, csv_path):
@@ -556,7 +556,7 @@ def main():
     visualizer.create_interactive_plot()
     
     print("\nVisualization complete!")
-    print("The C++ implementation would provide real-time interactivity")
+    print("The C# implementation would provide real-time interactivity")
     print("including metric switching, instrument filtering, and seasonal animation.")
 
 if __name__ == "__main__":

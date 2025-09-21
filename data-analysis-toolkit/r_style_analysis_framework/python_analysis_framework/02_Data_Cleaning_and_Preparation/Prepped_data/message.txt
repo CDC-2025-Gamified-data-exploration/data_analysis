@@ -1,0 +1,181 @@
+# Mars Mission Dataset Variable Definitions
+
+## Core Identifiers
+- **sol**: Mars solar day number since InSight landing (integer, primary key)
+- **solar_longitude_deg**: Mars orbital position in degrees (0-360°, interpolated using angle unwrapping)
+- **solar_longitude**: Alias for solar_longitude_deg for compatibility
+
+## Weather Variables (Aggregated from 15-minute readings)
+
+### Temperature Metrics
+- **temp_min**: Daily minimum temperature across all temperature sensors (Celsius)
+- **temp_max**: Daily maximum temperature across all temperature sensors (Celsius) 
+- **temp_avg**: Daily mean temperature across all temperature sensors (Celsius)
+- **temp_range**: Daily temperature range (temp_max - temp_min)
+- **temp_p05**: Daily 5th percentile temperature (robust minimum)
+- **temp_median**: Daily median temperature
+- **temp_p95**: Daily 95th percentile temperature (robust maximum)
+- **avg_temp**: Activity-derived temperature field, filled with weather temp_avg when missing
+
+### Wind Speed Metrics
+- **wind_speed_avg**: Daily mean horizontal wind speed
+- **wind_speed_max**: Daily maximum horizontal wind speed
+- **wind_speed_std**: Daily standard deviation of wind speed
+- **wind_speed_median**: Daily median wind speed
+- **wind_speed_p95**: Daily 95th percentile wind speed
+- **wind_gust_factor**: Ratio of max to average wind speed (wind_speed_max / wind_speed_avg)
+
+### Wind Direction Metrics
+- **wind_direction_avg**: Daily circular mean wind direction (0-360°, handles wraparound)
+- **wind_direction_std**: Daily circular standard deviation of wind direction
+- **wind_resultant_length**: Vector strength of daily wind direction (0-1, higher = more consistent)
+- **wind_u_mean**: Daily mean east-west wind component (speed-weighted)
+- **wind_v_mean**: Daily mean north-south wind component (speed-weighted)
+- **wind_vector_mean_speed**: Magnitude of daily mean wind vector
+- **wind_vector_mean_dir**: Direction of daily mean wind vector
+
+### Weather Data Quality
+- **weather_readings_count**: Number of 15-minute weather observations per sol
+- **weather_temp_completeness**: Fraction of temperature readings available (0-1)
+- **weather_wind_completeness**: Fraction of wind readings available (0-1)
+- **weather_data_completeness**: Overall fraction of weather sensors with data (0-1)
+- **weather_available_today**: Binary flag indicating any weather data exists for the sol
+
+## Activity Variables (Aggregated from daily activity logs)
+
+### Activity Counts and Presence
+- **has_activity**: Binary flag indicating any scheduled activities for the sol
+- **activity_count**: Number of distinct activities scheduled for the sol
+- **activity_text**: Concatenated text of all activities (pipe-separated)
+- **multiple_activities**: Binary flag for sols with more than one activity
+
+### Activity Analysis
+- **activity_word_count**: Total words in activity descriptions
+- **instruction_complexity**: Count of complexity indicators (commas, semicolons, "and") + 1
+- **is_multipart_operation**: Binary flag for activities containing "part X" patterns
+- **operation_part_number**: Extracted part number from multipart operations (0 if none)
+- **systems_involved**: Count of distinct instrument systems used in activities
+
+### Instrument Usage (Binary flags for each system)
+- **uses_ida**: Activities involving Instrument Deployment Arm
+- **uses_hp3**: Activities involving Heat Flow and Physical Properties Probe
+- **uses_seis**: Activities involving Seismic Experiment for Interior Structure
+- **uses_apss**: Activities involving Auxiliary Payload Sensor Subsystem
+- **uses_camera**: Activities involving imaging systems
+- **uses_wts**: Activities involving Wind and Thermal Shield
+- **primary_instrument**: Most prominent instrument used (categorical: IDA, HP3, SEIS, APSS, CAMERA, WTS, NONE)
+
+### Activity Type Classification (Binary flags)
+- **is_science_activity**: Activities involving scientific observations/measurements
+- **is_maintenance_activity**: Activities involving calibration, checkout, maintenance
+- **is_deployment_activity**: Activities involving physical positioning/installation
+- **is_recovery_activity**: Activities involving fault recovery, safe mode operations
+- **is_thermal_activity**: Activities involving thermal management
+- **is_communication_activity**: Activities involving data transfer, updates
+- **primary_activity_type**: Most prominent activity category (categorical)
+
+### Activity Intensity
+- **activity_intensity**: Normalized composite score (0-1) combining word count, complexity, and systems involved
+
+### Operational Status (From activity metadata when available)
+- **operational_status_rate**: Fraction of activities with normal operational status (0-1)
+- **has_operational_problem**: Binary flag for any activities with operational issues
+- **criticality_rate**: Fraction of activities marked as critical (0-1)
+- **is_critical_operation**: Binary flag for any critical activities
+- **power_status_rate**: Fraction of activities with normal power status (0-1)
+- **has_power_issue**: Binary flag for any activities with power problems
+
+## Temporal and Mission Context
+
+### Mars Calendar
+- **mars_year**: Mars year number since InSight landing (1, 2, 3...)
+- **sol_of_mars_year**: Sol within current Mars year (0-668)
+- **mars_season**: Northern hemisphere season based on Ls (Spring_North, Summer_North, Fall_North, Winter_North)
+
+### Mission Timeline
+- **mission_phase**: InSight mission phase (Checkout: 0-100, Primary: 101-709, Extended_1: 710-1060, Extended_2+: 1061+)
+- **phase_progress**: Progress within current mission phase (0-1)
+- **mission_age_linear**: Linear mission age (sol/max_sol, 0-1)
+- **mission_age_log**: Logarithmic mission age using log1p scaling (0-1)
+
+### Sol Sequence Analysis
+- **sol_gap**: Days since previous sol in dataset
+- **is_consecutive_sol**: Binary flag for consecutive sols (gap = 1)
+- **sol_gap_size**: Size of data gap, capped at 30 sols
+
+### Equipment Aging
+- **equipment_age_factor**: Exponential aging factor based on sols (0-0.3)
+- **wear_accumulation**: Linear wear accumulation (sol/1000, capped at 1.0)
+
+## Environmental Features
+
+### Seasonal and Orbital
+- **dust_season_risk**: Triangular risk function peaking at Ls=240° during dust season (180-300°)
+- **orbital_thermal_factor**: Cosine-based insolation proxy relative to perihelion at Ls=250°
+- **ls_sin**: Sine encoding of solar longitude for cyclical ML features
+- **ls_cos**: Cosine encoding of solar longitude for cyclical ML features
+- **solar_longitude_diff**: Daily change in solar longitude (degrees per sol)
+
+### Temperature Trends
+- **temp_volatility_7sol**: 7-sol rolling standard deviation of daily temperature
+- **temp_trend_7sol**: 7-sol temperature slope (°C per sol)
+
+### Wind Analysis
+- **wind_gustiness**: Daily difference between max and average wind speed
+- **wind_volatility_7sol**: 7-sol rolling standard deviation of wind speed
+- **wind_dust_lifting**: Binary flag for wind speeds exceeding 90th percentile (dust-lifting threshold)
+- **wind_sustained_high**: Binary flag for 2+ days of dust-lifting winds in 3-sol window
+- **wind_high_volatility**: Binary flag for wind volatility exceeding 90th percentile
+
+## Operational Features
+
+### Activity Tempo (Rolling averages of activity intensity)
+- **operational_tempo_3sol**: 3-sol rolling mean activity intensity
+- **operational_tempo_7sol**: 7-sol rolling mean activity intensity  
+- **operational_tempo_15sol**: 15-sol rolling mean activity intensity
+
+### Problem Tracking
+- **sols_since_last_problem**: Days since last operational problem (999 if none)
+- **sols_to_next_problem**: Days until next operational problem (999 if none)
+- **sols_since_last_activity**: Days since last activity (999 if none)
+
+### Activity Patterns
+- **activity_days_30sol**: Number of active days in 30-sol rolling window
+- **cumulative_activity_count**: Running total of activities since mission start
+
+## Equipment and Maintenance
+
+### Instrument Usage Tracking (For each instrument: ida, hp3, seis, apss, camera, wts)
+- **{instrument}_cumulative_usage**: Running count of days instrument was used
+- **{instrument}_usage_intensity**: Recent usage rate (30-day usage / total usage)
+
+### System Health
+- **mission_operational_cycles**: Cumulative count of active sols
+- **equipment_reliability_score**: Composite reliability (1.0 - age_degradation - usage_degradation)
+- **maintenance_activity**: Binary flag for maintenance-related activities
+- **sols_since_maintenance**: Days since last maintenance activity
+
+## Dust Storm Features
+
+### Dust Event Detection
+- **dust_storm_probability**: Composite dust storm likelihood (0-1) combining wind, seasonal, and thermal signals
+- **dust_event_level**: Categorical dust event severity (none, minor, moderate, major)
+
+## Compound Risk Indices
+
+### Environmental Stress
+- **environmental_stress_index**: Weighted combination (0-1) of wind volatility (40%), temperature volatility (30%), and seasonal dust risk (30%)
+
+### Operational Risk  
+- **operational_risk_index**: Weighted combination (0-1) of dust probability (40%), equipment unreliability (35%), and operational tempo (25%)
+
+### Power Availability
+- **power_availability_proxy**: Solar power estimate (0-1) combining orbital thermal factor reduced by dust seasonal risk
+
+## Data Quality Notes
+
+- Weather variables are imputed for activity-only sols using seasonal medians and nearest-neighbor fill
+- All percentage/rate variables are bounded [0,1]
+- Missing categorical variables default to 'NONE'
+- Rolling calculations use minimum periods to handle early mission data
+- Quantile-based normalizations are robust to outliers and missing data
