@@ -1,0 +1,234 @@
+﻿Sol,End,Look ahead,Activity,Solar longitude (deg),UTC
+1,,,Thermal Checkouts,296.23,2018-11-27 18:50
+2,,,Safe Mode,296.85,2018-11-28 19:30
+3,,,Safe Mode Recovery,297.47,2018-11-29 20:11
+4,,,"IDA Unstow Part 1, ICC Cover Open, and Instrument Checkouts",298.09,2018-11-30 20:51
+5,,,IDA/IDC and APSS Safed,298.71,2018-12-01 21:31
+6,,,Runout,299.32,2018-12-02 22:11
+7,,,Runout,299.94,2018-12-03 22:51
+8,,,"IDA Unstow Part 2, Deck Imaging, and Arm Characterization",300.55,2018-12-04 23:31
+9,,,Runout,301.17,2018-12-06 00:11
+10,,,Above Deck and Footpad Imaging; APSS Checkout,301.78,2018-12-07 00:51
+11,,,Runout,302.39,2018-12-08 01:31
+12,,,Workspace Imaging,303.00,2018-12-09 02:11
+13,,,Runout,303.61,2018-12-10 02:51
+14,,,"Below Deck imaging, Science Panorama, First Tau Image, APSS Power On, HP3 Radiometer Cover Open, and SEIS Calibration",304.22,2018-12-11 03:31
+15,,,Runout,304.83,2018-12-12 04:11
+16,,,"High Resolution Imaging of SEIS and HP3 Deployment Locations, SEIS SP Data Collection, SEIS Tilt Measurement, HP3 Open Cover Radiometer Calibrations, and Start HP3 SSA Monitoring",305.44,2018-12-13 04:51
+17,,,Runout,306.04,2018-12-14 05:30
+18,,,Below Deck Imaging of All Footpads and Grapple Unstow,306.65,2018-12-15 06:10
+19,,,Runout,307.25,2018-12-16 06:50
+20,,,"SEIS Capture with Grapple, Acquire SEIS Data, Update TWINS Heater Setpoints, and Imaging",307.86,2018-12-17 07:30
+21,,,Runout,308.46,2018-12-18 08:10
+22,,,SEIS Deployment,309.06,2018-12-19 08:50
+23,,,IDC and ICC Imaging of SEIS; Unsafe HP3,309.66,2018-12-20 09:30
+24,,,Grapple Adjustment; HP3 Checkouts and Calibrations,310.26,2018-12-21 10:10
+25,,,"Release SEIS Grapple, HP3 Tilt Measurements, SEIS Collect SP Data and Tilt Measurements, and IDC and ICC Imaging",310.86,2018-12-22 10:50
+26,,,SEIS and Tether Imaging; Tau Imaging,311.46,2018-12-23 11:29
+27,,,Runout,312.05,2018-12-24 12:09
+28,,,Runout,312.65,2018-12-25 12:49
+29,,,Runout,313.25,2018-12-26 13:29
+30,,,"SEIS Leveling, Acquire SEIS Data, and Imaging",313.84,2018-12-27 14:09
+31,,,Runout,314.43,2018-12-28 14:49
+32,,,"Unsafe IDA and PAE, SEIS Collect SP Data and Tilt Measurements, and SEIS Stereo Imaging",315.02,2018-12-29 15:28
+33,,,Runout,315.62,2018-12-30 16:08
+34,,,Runout,316.21,2018-12-31 16:48
+35,,,"SEIS VBB Recentering and Data Collection, IDS Stereo Imaging of SEIS After Leveling, Sundial Imaging, and Grapple Localization",316.79,2019-01-01 17:28
+36,,,Runout,317.38,2019-01-02 18:07
+37,,,Open SEIS Tether Storage Box,317.97,2019-01-03 18:47
+38,,,"SEIS Tether Assessment, LSA Imaging, and Stow SEIS VBB",318.56,2019-01-04 19:27
+39,,,IDA Temperature Monitoring and HP3 Radiometer Shadow Measurements,319.14,2019-01-05 20:07
+40,,,Load Shunt Assembly (LSA) Release and Imaging,319.73,2019-01-06 20:46
+41,,,Runout; Imaging of LSA and Pinning Mass,320.31,2019-01-07 21:26
+42,,,Imaging of Pinning Mass and SEIS VBB Recentering; Attempted Grapple Stow,320.89,2019-01-08 22:06
+43,,,Runout,321.47,2019-01-09 22:46
+44,,,"Stereo Imaging of SEIS, LSA, and Pinning Mass, HP3 Tilt Measurements, and SEIS Level Low; Attempted Grapple Stow",322.05,2019-01-10 23:25
+45,,,Runout; SEIS VBB/SP Data Acquisition,322.63,2019-01-12 00:05
+46,,,SEIS and HP3 Activities; Attempted Grapple Stow,323.21,2019-01-13 00:45
+47,,,Runout,323.79,2019-01-14 01:24
+48,,,Pinning Mass Imaging from Standoff Position and Tau Imaging,324.36,2019-01-15 02:04
+49,,,Runout,324.94,2019-01-16 02:44
+50,,,Grapple Investigation Activity and Grapple Stow,325.51,2019-01-17 03:23
+51,,,Runout,326.08,2019-01-18 04:03
+52,,,Pinning Mass Imaging from Standoff Position and Tau Imaging,326.65,2019-01-19 04:42
+53,,,Runout; Saltation Images,327.23,2019-01-20 05:22
+54,,,Runout,327.79,2019-01-21 06:02
+55,,,Runout,328.36,2019-01-22 06:41
+56,,,"Pinning Mass Adjustment, HP3 Radiometer Calibration, Recenter SEIS VBBs, and SEIS SP and VBB Data Collection",328.93,2019-01-23 07:21
+57,,,Runout,329.50,2019-01-24 08:01
+58,,,"Tau Imaging, HP3 Tilt Measurement, HP3 Radiometer Hourly Mode, SEIS Tilt, SEIS SP and VBB Data Collection, Calibration Target Imaging, and Stereo Imaging of the HP3 Placement Site",330.07,2019-01-25 08:40
+59,,,Pinning Mass Adjustment #2 and HP3 Engineering Tether Preheat Test,330.63,2019-01-26 09:20
+60,,,Runout,331.19,2019-01-27 09:59
+61,,,Pinning Mass Adjustment #3 and HP3 Radiometer Calibration,331.76,2019-01-28 10:39
+62,,,"LSA Imaging, SEIS Stereo Imaging, WTS Site Imaging, SEIS SP/VBB Data Collection, HP3 Rad Hourly, and Grapple Unstow",332.32,2019-01-29 11:18
+63,,,WTS Teach Point,332.88,2019-01-30 11:58
+64,,,Arm Motor Temperature Monitoring; Collect Event Data,333.44,2019-01-31 12:37
+65,,,WTS Capture,334.00,2019-02-01 13:17
+66,,,WTS Deploy,334.56,2019-02-02 13:56
+67,69,,"WTS Grapple Adjustment, WTS Imaging, SEIS Tilt Measurements, VBB Recentering, SP and VBB Data Collection, HP3 Radiometer Measurements, and APSS Data Collection",335.11,2019-02-03 14:36
+70,,,WTS Release,336.78,2019-02-06 16:34
+71,,,"Tau, Deck Imaging, WTS Mosaic, and HP3 Checkout",337.33,2019-02-07 17:14
+72,,,Runout,337.88,2019-02-08 17:53
+73,,,Position Grapple Over HP3 Teach Point,338.43,2019-02-09 18:33
+74,,,"HP3 Capture, SEIS Commissioning Activities, and HP3 Tilt Measurement",338.98,2019-02-10 19:12
+75,,,Runout,339.53,2019-02-11 19:52
+76,,,HP3 Deployment,340.08,2019-02-12 20:31
+77,,,HP3 Checkout and SEIS Commissioning,340.63,2019-02-13 21:11
+78,,,Runout,341.17,2019-02-14 21:50
+79,,,HP3 Grapple Adjustment Part 1 and SEIS Commissioning,341.72,2019-02-15 22:30
+80,,,Runout,342.26,2019-02-16 23:09
+81,,,HP3 Grapple Adjustment Part 2 and SEIS Commissioning,342.80,2019-02-17 23:49
+82,,,Runout,343.35,2019-02-19 00:28
+83,84,,HP3 Grapple Release,343.89,2019-02-20 01:07
+85,86,,"HP3 Tilt Measurement, HP3 and Deck Imaging, and SEIS VBB Characterization and Calibration",344.97,2019-02-22 02:26
+87,89,,HP3 Mole Release and SEIS Activities,346.04,2019-02-24 03:45
+90,91,*,HP3 Hammering and SEIS VBB3 Characterization,347.65,2019-02-27 05:43
+92,93,*,"SEIS Commissioning Activities, HP3 Stereo Imaging, Payload Grapple Localization, and Sunrise Imaging",348.72,2019-03-01 07:02
+94,95,*,"SEIS Commissioning Activities, IDC AM Tau, and Grapple Stow",349.78,2019-03-03 08:21
+110,111,,Workspace and HP3 Imaging,358.15,2019-03-19 18:50
+112,113,,Tau and Cloud Survey Imaging; Setup for Equinox Imaging,359.18,2019-03-21 20:08
+114,116,,HP3 Imaging,000.21,2019-03-23 21:27
+117,118,*,"Unsafe the Cameras, AM Tau, and HP3 Hammering While Imaging",001.74,2019-03-26 23:25
+119,120,*,"Science Panorama Gap Imaging, HP3 Imaging, and HP3 Radiometer Special Observations",002.76,2019-03-29 00:43
+121,123,*,Science Morning Panorma,003.78,2019-03-31 02:02
+130,131,,Runout,008.31,2019-04-09 07:55
+132,133,,Dust Devil Search Imaging and IDA Temperature Monitoring,009.30,2019-04-11 09:14
+134,135,,Science Panorama Imaging,010.30,2019-04-13 10:32
+137,138,*,"AM IDC Tau, Dust Devil Imaging, and Aeolian Imaging of West Footpad",011.79,2019-04-16 12:30
+139,140,*,Dust Devil Imaging,012.77,2019-04-18 13:48
+141,143,*,IDA Retirement Pose and Rolling Stone Imaging; IDA No Load Characterization,013.76,2019-04-20 15:07
+144,150,,"Sunrise and Sunset Imaging; SEIS, APSS, and RAD Data Acquisition",015.23,2019-04-23 17:04
+151,152,,"AM IDC Tau, IDC Sky Flat Imaging, and RAD Calibrations; IDA Safed",018.65,2019-04-30 21:39
+153,155,,Aerosol Sky Survey,019.61,2019-05-02 22:57
+156,157,,Additional Science Panorama Imaging,021.06,2019-05-06 00:55
+158,159,*,HP3 Diagnostic Hammering #3,022.03,2019-05-08 02:13
+160,161,*,AM Tau and HP3 Stereo Imaging,022.99,2019-05-10 03:32
+196,202,,"Routine Activities, ICC Dust Devil Movie, and IDA Temperature Monitoring",039.91,2019-06-16 03:04
+203,209,*,HP3 SSA Lift Part 1 and Part 2; Imaging,043.13,2019-06-23 07:38
+210,222,,Arm Grapple Adjustment Activity and Grapple Release of HP3 SSA,046.34,2019-06-30 12:13
+223,229,,"IDS Stereo Imaging of HP3 SSA and Exposed Mole, Grapple Stow, Post Grapple Stow IDS Stereo Imaging of HP3 SSA and Mole Hole, and Close up Imaging of Mole Hole",052.26,2019-07-13 20:43
+233,236,,Checkout Adjusted IDS Retirement Pose and Standoff Imaging of Mole Hole,056.78,2019-07-24 03:16
+237,242,,IDS Course Scoop Positioning Next to HP3 Mole Hole; IDS Place Flat Scoop on Soil and Press Down,058.58,2019-07-28 05:53
+243,249,,"IDS Scoop Tip on Soil Above Hole and on Side, Upload New LME Full Curve and Set to Default, and SEIS Flash Maintenance and Tilt Measurement",061.28,2019-08-03 09:49
+250,256,,IDS Soil Interaction and Put IDA in Retirement Pose in Preparation for Solar Conjunction,064.43,2019-08-10 14:25
+257,263,,"Mole Hole Imaging, Put IDA in Retirement Pose in Preparation for Solar Conjunction, and Configure Instruments and Spacecraft for Conjunction",067.57,2019-08-17 19:00
+264,284,,Solar Conjunction; Reduced Instrument Data Collection,070.71,2019-08-24 23:35
+285,291,,"Continue to Increase Temperatures Within Thermal Enclosure, Power APSS Sensors ON, Power SEIS Instrument ON, and Perform IDS Temperature Monitoring Activity",080.13,2019-09-15 13:22
+291,297,,"IDA Wrist Actuator Characterization, Re-Center SEIS, and Meteor Search",082.83,2019-09-21 17:19
+298,304,,"IDA Horizontal Pin of Mole, Long Shadow Images, and HP3 Parameter Table Upload",085.98,2019-09-28 21:55
+305,310,,"IDA Vertical Pin of Mole, First Opportunity to Hammer with Mole, Long Shadow Images, and Resumption of HP3 RAD Hourly Measurements",089.15,2019-10-06 02:31
+311,317,,Second and Third Opportunities to Hammer with Mole and Long Shadow Images,091.87,2019-10-12 06:27
+318,324,,"Additional Opportunities to Hammer with Mole and Meteor Search, Long Shadow Search, and Dust Devil Search Images",095.05,2019-10-19 11:04
+325,331,,"Retract Scoop from Surface Contact and Long Shadow, Aeolian Change, Dust Devil Search, and Meteor Search Images",098.26,2019-10-26 15:40
+332,338,,"Mole Recovery Activities and Long Shadow, Aeolian Change, Dust Devil Search, and Meteor Search Images",101.47,2019-11-02 20:16
+339,345,,"Mole Recovery Activities and Long Shadow, Aeolian Change, Dust Devil Search, and Meteor Search Images",104.71,2019-11-10 00:52
+346,352,,"Mole Recovery Activities, Final Mini-Tactical Planning Cycle, Aeolian Change and Long Shadow Images, Transition to new SEIS/APSS Flight Software, SEIS Flash Maintenance, and New Block Libraries Uplink",107.97,2019-11-17 05:28
+353,365,,"Aeolian Change, Dust Devil Search, and Meteor Baseline Search Images",111.25,2019-11-24 10:04
+366,372,,"HP3 Mole Recovery Operations, HP3 Calibrations, and Aeolian Change, Dust Devil Search, and Meteor Baseline Search Images",117.41,2019-12-07 18:37
+373,379,,"HP3 Mole Recovery Operations, HP3 RAD Calibrations, and Aeolian Change, Dust Devil Search, and Meteor Baseline Search Images",120.76,2019-12-14 23:13
+380,399,,"HP3 Mole Recovery Operations, HP3 RAD Calibrations, and Aeolian Change, Dust Devil Search, and Meteor Baseline Search Images",124.15,2019-12-22 03:49
+400,406,,"HP3 Mole Recovery Operations, HP3 RAD Calibrations, Landed Model Energy Fault Response Enabling, Overnight Battery Characterization, and Aeolian Change, Dust Devil Search, and Meteor Baseline Search Images",134.00,2020-01-11 16:58
+407,413,,"HP3 Mole Recovery Operations, New WUTT Installation, APSS/SEIS DBLT Dumps, SEIS Flash Maintenance and Tilt Measurement, and Aeolian Change, Dust Devil Search, and Meteor Baseline Search Images",137.52,2020-01-18 21:34
+414,419,,"HP3 Mole Recovery Operations and Aeolian Change, Dust Devil Search, and Meteor Baseline Search Images",141.08,2020-01-26 02:10
+420,426,,"HP3 Mole Recovery Operations, New WUTT Installation, Update LME Curve, APSS/SEIS DBLT Dumps, and Aeolian Change, Dust Devil Search, and Meteor Baseline Search Images",144.16,2020-02-01 06:06
+427,433,,"HP3 Mole Recovery Operations, HP3 RAD Calibrations, Update LME Curve, and Long Shadow, Aeolian Change, Dust Devil Search and Meteor Baseline Search Images",147.80,2020-02-08 10:42
+434,440,,"HP3 Mole Recovery Operations, HP3 RAD High Rate and Calibrations, New WUTT Installation, APSS/SEIS DBLT Dumps, SEIS VBB Recentering and Calibration, and Long Shadow, Aeolian Change, and Dust Devil Search Images",151.47,2020-02-15 15:18
+441,453,,"HP3 Mole Recovery Operations, HP3 RAD High Rate, Calibrations, and Hourly, New WUTT Installation, BST Dumps, SEIS Flash Maintenance and Tilt Measurement, and Long Shadow, Aeolian Change, Dust Devil Search, and Cloud Images",155.20,2020-02-22 19:54
+454,460,,"HP3 Mole Recovery Operations, HP3 RAD High Rate, SEIS VBB3 Characterization, and Long Shadow, Aeolian Change, Dust Devil Search, and Cloud Images",162.23,2020-03-07 04:27
+461,467,,"Long Shadow, Aeolian Change, Dust Devil Search, and Cloud Images",166.09,2020-03-14 09:03
+468,474,,"HP3 Mole Recovery Operations, SEIS Flash Maintenance and Tilt Measurement, and Long Shadow, Aeolian Change, Dust Devil Search, and Cloud Images",169.99,2020-03-21 13:39
+475,481,,"Command Loss Timer Set to 25 Days, SEIS Data Processing to L2, APSS Data Processing to L1, Deimos Eclipse Movie, and Aeolian Change and Tau Images",173.95,2020-03-28 18:16
+482,488,,"HP3 Mole Recovery Operations, APSS Data Processing to L2, Overnight Battery Characterization, and Long Shadow, Aeolian Change, Tau Images",177.95,2020-04-04 22:52
+489,494,,"HP3 Mole Recovery Operations, APSS Data Processing to L3, and Long Shadow, Aeolian Change, Dust Devil Search, Cloud, and Tau Images",182.00,2020-04-12 03:29
+495,501,,"Phobos Eclipse RAD Observations and Imaging, Aeolian Change, Dust Devil Search, and Tau Images, and SEIS Flash Maintenance and Tilt Measurement",185.52,2020-04-18 07:26
+502,508,,"HP3 Mole Recovery Operations, HP3 RAD Hourly and SSA Monitoring, and Long Shadow, Aeolian Change, Dust Devil Search, and Tau Images",189.66,2020-04-25 12:03
+509,515,,"HP3 Mole Recovery Operations and Long Shadow, Aeolian Change, Dust Devil Search, and Tau Images",193.85,2020-05-02 16:41
+516,522,,"HP3 Mole Recovery Operations, HP3 RAD Calibrations and SSA Monitoring, WUTT Installation, and Long Shadow, Dust Devil Search, and Tau Images",198.09,2020-05-09 21:18
+523,529,,"HP3 Mole Recovery Operations, HP3 RAD Calibrations and SSA Monitoring, SEIS VBB Recentering and Tilt Measurements, MAVEN No_Op Test, MEX Demonstration, and Long Shadow, Aeolian Change, Dust Devil Search, and Tau Images",202.37,2020-05-17 01:56
+530,542,,"HP3 Mole Recovery Operations, HP3 RAD Hourly and Thermal Conductivity Measurements, and Long Shadow, Aeolian Change, Dust Devil Search, and Tau Images",206.70,2020-05-24 06:34
+543,549,,"HP3 Mole Recovery Operations, HP3 RAD Hourly and Other Calibrations, and Long Shadow, Aeolian Change, Dust Devil Search, and Tau Images",214.84,2020-06-06 15:12
+550,556,,"HP3 Mole Recovery Operations, HP3 RAD Calibrations and SSA Monitoring, Disable IDA Survival Heaters, IDA Temperature Monitoring, Update LME Curves, and Long Shadow, Aeolian Change, Dust Devil Search, Meteor Search, and Tau Images",219.27,2020-06-13 19:51
+557,563,,"HP3 Mole Recovery Operations, HP3 RAD Calibrations and SSA Monitoring, Battery Characterization, IDA Temperature Monitoring, and Long Shadow, Aeolian Change, Dust Devil Search, and Tau Images",223.74,2020-06-21 00:31
+564,576,,"HP3 RAD Calibrations and SSA Monitoring, Battery Characterization, IDA Temperature Monitoring, and Long Shadow, Aeolian Change, Dust Devil Search, and Tau Images",228.23,2020-06-28 05:11
+577,583,,"Unsafe APSS and Power ON (All Sensors), Retract IDA, Mole Pit Mosaic, Solar Array Vibration Image Campaign, Install WUTT, and Tau Images",236.64,2020-07-11 13:52
+584,590,,"SEIS Tilt Measurement and Flash Maintenance, HP3 Unsafe and RAD Single Measurements, and Dust Devil and Tau Images",241.18,2020-07-18 18:33
+591,597,,"HP3 RAD Single Measurements, Payload Block Libraries Upload, and Meteor Search and Tau Images",245.75,2020-07-25 23:15
+598,603,,"HP3 Mole Recovery Operations, HP3 RAD Hourly Measurements and SSA Monitoring, and Tau Images",250.31,2020-08-02 03:56
+604,610,,"HP3 Mole Recovery Operations, HP3 RAD Single Measurements and SSA Monitoring, and Dust Devil and Tau Images",254.23,2020-08-08 07:58
+611,617,,HP3 Mole Recovery Operations and Dust Devil and Tau Images,258.79,2020-08-15 12:40
+618,624,,"HP3 Mole Recovery Operations, APSS Recovery Operations, VBB2 Recentering and POS Gain to High, and Dust Devil and Tau Images",263.35,2020-08-22 17:22
+625,631,,Dust Devil and Tau Images,267.89,2020-08-29 22:05
+632,637,,"HP3 Mole Recovery Operations, APSS Recovery Operations, and Dust Devil and Tau Images",272.42,2020-09-06 02:47
+638,644,,"SEIS VBB2 Recentering, TWINS Configuration File Update, and Dust Devil and Tau Images",276.28,2020-09-12 06:49
+645,651,,"HP3 Mole Recovery Operations, BEE Parameter Table Update, and Dust Devil and Tau Images",280.76,2020-09-19 11:30
+652,658,,"SEIS Tilt Measurement and Flash Maintenance, HP3 RAD Single Measurements, and Dust Devil and Tau Images",285.21,2020-09-26 16:12
+659,665,,"HP3 Mole Recovery Operations, HP3 RAD Single Measurements, and Tau Images",289.62,2020-10-03 20:53
+666,672,,HP3 RAD Single Measurements and Dust Devil and Tau Images,294.00,2020-10-11 01:34
+673,678,,"HP3 Mole Recovery Operations, HP3 RAD Single Measurements, and Tau Images",298.34,2020-10-18 06:15
+679,685,,"HP3 TEMA/TEMP Measurements, Cycling of APSS Sensors for Power Balancing, HP3 RAD Single Measurements, and Tau Images",302.03,2020-10-24 10:15
+686,692,,"HP3 Mole Recovery Operations, HP3 RAD Single Measurements, and Dust Devil and Tau Images",306.29,2020-10-31 14:55
+693,699,,"HP3 RAD Hourly Measurements, Uplink of 15-Curve LME Files, and Dust Devil and Tau Images",310.51,2020-11-07 19:34
+700,706,,"HP3 Mole Recovery Activities, HP3 RAD Single Measurements, BEE Reset, Operate Using 15-Curve LME, and Dust Devil and Tau Images",314.67,2020-11-15 00:13
+707,719,,"HP3 Mole Recovery Activities, SEIS Tilt Measurement and Flash Maintenance, Command Loss Timer Set to 8 days, and Dust Devil and Tau Images",318.79,2020-11-22 04:51
+720,733,,"HP3 Mole Recovery Activities, HP3 RAD Single Measurements, Unsafe IDA and HP3, and Tau Images",326.31,2020-12-05 13:27
+734,753,,"HP3 Mole Recovery Activities, HP3 RAD Single Measurements, HP3 RAD Calibration, SEIS VBB2 Characterization, Aeolian Change, and Tau Images",334.22,2020-12-19 22:41
+754,760,,"HP3 Mole Recovery Activities, HP3 RAD Single Measurements, SEIS Recentering of VBB2, SEIS VBB3 Characterization, Aeolian Change, and Tau Images",345.18,2021-01-09 11:50
+761,774,,"Phobos Eclipse RAD Observations, HP3 RAD Single Measurements, High-Frequency SEIS Recording, Aeolian Change, and Tau Images",348.93,2021-01-16 16:26
+775,787,,"Arm Retraction and Mosaic, HP3 RAD Calibrations, HP3 Bad Block Readout, SEIS VBB2 Recentering, SEIS Get Tilt and Flash Maintenance, Aeolian Change, and Tau Images",356.28,2021-01-31 01:36
+788,801,,"Pulse the East Solar Array Deployment Motors (Dust Reduction), 4x4x1 Mosaic of SEIS Tether and Surroundings, HP3 Single Calibrations, and Tau Images",002.96,2021-02-13 10:07
+802,815,,"Unsafe APSS, Switch APSS to USM3, HP3 RAD Calibrations (Day and Single), Test Scrapes for SEIS Tether Burial, Disable Secondary Survival Heater, Aeolian Change, and Tau Images",010.00,2021-02-27 19:17
+816,821,,"Test Acquire and Drop for SEIS Tether Burial, Disable Primary and Secondary Survival Heater, HP3 RAD Calibrations, Aeolian Change, and Tau Images",016.89,2021-03-14 04:26
+822,828,,"Two Scrapes SEIS Tether Burial, HP3 TEM-A/TEM-P Calibrations, Aeolian Change and Tau Images",019.81,2021-03-20 08:21
+829,835,,"Two Scrapes SEIS Tether Burial, HP3 RAD Calibrations, Aeolian Change and Tau (ICC and IDC) Images",023.18,2021-03-27 12:56
+836,842,,"Acquire and Dump for SEIS Tether Burial - Not Completed, HP3 RAD SINGLE Calibrations, Aeolian Change and Tau Images",026.52,2021-04-03 17:30
+843,849,,"Unsafe IDS, Dump for SEIS Tether Burial (complete for last week) - Unsuccessful, HP3 RAD SINGLE Calibrations, Aeolian Change, and Tau Images",029.83,2021-04-10 22:04
+850,855,,"Unsafe IDA and Dump for SEIS Tether Burial (complete from two weeks ago), HP3 RAD SINGLE Calibrations, Aeolian Change, and Tau Images",033.12,2021-04-18 02:39
+856,862,,"Acquire and Dump for SEIS Tether Burial, TWINS Data Collection Over Diurnal Cycle, Power Cycle SEIS, Aeolian Change, and Tau Images",035.92,2021-04-24 06:34
+863,869,,"Acquire and Dump for SEIS Tether Burial - Dump 4 (TWINS On during dump), SP's ON Overnight, HP3 RAD Single Calibrations, Engineering Block Library Update, Aeolian Change, and Tau Images",039.17,2021-05-01 11:09
+870,876,,"Acquire and Dump for SEIS Tether Burial - Dump 5 (TWINS On during dump), Update SEIS thermal protection threshold, Installation of new WUTT, Observing (possible) Tianwen-1 Landing, and Tau Images",042.40,2021-05-08 15:43
+877,883,,"Acquire and Dump for SEIS Tether Burial - Dump 6 (TWINS On during dump), Observation of Tianwen-1 Landing, and Tau Images",045.61,2021-05-15 20:18
+884,890,,"Acquire and Dump SA Cleaning Experiment (TWINS On during dump), Installation of new WUTT, Update battery planning limit, IDC Science and Tau Images",048.80,2021-05-23 00:53
+891,896,,"2 IDA Scrapes (Sol 891), 1 RAD Single, IDC Science and Tau Images",051.98,2021-05-30 05:28
+897,903,,"SA Cleaning Activity Dump 2 (Sol 897), HP3 RAD Singles, Update LME curves, Install new WUTT, IDC Science and Tau Images",054.70,2021-06-05 09:24
+904,910,,"IDS Press and pull scrape of additional regolith, IDC Science and Tau Images",057.86,2021-06-12 13:59
+911,917,,"Acquire & Dump for Solar Array Cleaning Activity #3 (19 June 2021), Shake of the West Solar Array (23 June 2021), IDC Science and Tau Images",061.01,2021-06-19 18:34
+918,924,,"Post Shake Imaging of the Solar Panel and Deck (Sol0918), IDC Science and Tau Images",064.16,2021-06-26 23:09
+925,937,,"IDS Temperature Monitoring Activity, SEIS VBBs on continuously, IDC Science and Tau Images",067.30,2021-07-04 03:44
+938,951,,"SA Cleaning Activity #4 (18 July 2021), SEIS VBBs on continuously, New WUTT Installation, IDC Science and Tau Images",073.13,2021-07-17 12:16
+952,964,,"Scraping of Regolith for Future Activities, SEIS VBBs on continuously, IDC Science and Tau Images",079.41,2021-07-31 21:28
+965,978,,"Scraping of Regolith for Future Activities, Park IDA in safe position for Solar Conjunction, SEIS VBBs on continuously, IDC Science and Tau Images",085.26,2021-08-14 06:00
+979,992,,"No IDS activity, HP3 Unsafing and recovery, RAD Singles, SEIS VBBs on continuously, Update LME curves, New WUTT Installation, IDC Science and Tau Images",091.60,2021-08-28 15:12
+993,1009,,"No IDS activity, RAD Singles, SEIS VBBs on continuously, Configure SEIS VBBs to 20 sps prep for SC, Update LME curves, New WUTT Installation,  IDC Science and Tau Images",097.99,2021-09-12 00:24
+1010,1032,,"No IDS activity, SEIS VBBs on continuously (20 sps), Update LME curves, New WUTT Installation,  IDC Science and Tau Images",105.83,2021-09-29 11:35
+1033,1046,,"SEIS VBBs on continuously (20 sps through 27 Oct., 100 sps starting 28 Oct.), Update LME curves, New WUTT Installation, BST Dump, IDC Science and Tau Images",116.65,2021-10-23 02:42
+1047,1060,,"Update LME Curves, Stereo Panorama Fill, RAD Single (Two Sols), IFG on two nights (10 hr, 15 hr), TWINS on two nights (12 hr, 9+ hr) and one day (7 hr), New WUTT Installation, IDC Science and Tau Images",123.38,2021-11-06 11:54
+1061,1073,,"Update LME Curves, SA Cleaning Activity #5 (20 November 2021), RAD Singles, HP3 TEMP and TEMA, IFG, New WUTT Installation, IDC Science and Tau Images",130.23,2021-11-20 21:06
+1074,1087,,"Update LME Curves, Indentation (SAR #150), New WUTT Installation, IDC Science and Tau Images",136.72,2021-12-04 05:39
+1088,1107,,"Update LME Curves, New WUTT Installation, IDC Science and Tau Images",143.86,2021-12-18 14:51
+1108,1114,,Lander in SAFE MODE,154.35,2022-01-08 03:59
+1115,1128,,"Background Sequence started executing on Sol1118 (18 Jan), Unsafe the lander",158.10,2022-01-15 08:35
+1129,1135,,"Eng UnSafe Sci All, Eng File Dir Dump, Payload block library updates, BST Dump, Unsafe SEIS, VBBs ON, IDA UnSafe w/ Pot Sync, Update LME Curves, New WUTT Installation, IDC Science and Tau Images",165.76,2022-01-29 17:48
+1136,1142,,"Update LME Curve, IDA Solar Panel and deck imaging, IDA Return to observation pose, Recover APSS and turn on PS/TWINS for ~2.5 Hrs, Recover HP3 and briefly Power On/Off, Excite Solar Arrays (SAR#465), HP3 RAD single, IDC Science and Tau Images",169.66,2022-02-05 22:24
+1143,1155,,"Update LME Curves, New WUTT Installation, HP3 RAD single, Solar Array Cleaning Experiment #6, VBBs on continuously, IDC Science and Tau Images",173.61,2022-02-13 03:00
+1156,1169,,"Update LME Curves, New WUTT Installation, Elastic Properties (Initial 2x2x1, Final 2x2x1), Aerosol Sky Survey, HP3 RAD single,Phobos Eclipse (SAR#460), HP3 TEMP and TEMA, VBBs on continuously, IDC Science and Tau Images",181.07,2022-02-26 11:34
+1170,1182,,"Update LME Curves, New WUTT Installation, Elastic Properties with Horizontal Forces (SAR #425), VBBs on continuously, IDC Science and Tau Images",189.30,2022-03-12 20:48
+1183,1196,,"Acquire Structure for Motion (SAR#114), IDA Double Scrape, Update LME Curves, New WUTT Installation, BST Dump, Eng File Dir Dump, VBBs on continuously, IDC Science and Tau Images",197.11,2022-03-26 05:23
+1197,1210,,"Sunrise imaging, Sunset imaging, IDS - No Load actuator characterization, Update LME Curves, New WUTT Installation, VBBs on continuously, RAD Singles, IDC Science and Tau Images",205.70,2022-04-09 14:39
+1211,1223,,"Imaging Under Spacecraft, Lander Horizontal Mosaic, Turn on PAE 28V PS and IFG, Update LME Curves, New WUTT Installation, VBBs on continuously, RAD Singles, IDC Science and Tau",214.45,2022-04-23 23:56
+1224,1230,,"Update LME Curves, New WUTT Installation, Eng. Block Lib Update, Cal Target",222.71,2022-05-07 08:35
+1231,1237,,"MSL-NSY FTS Mode Demo, Unsafe Payloads sequence, IDA Unsafe and Pot Sync, SEIS Recovery, HP3 Recovery",227.19,2022-05-14 13:15
+1238,1251,,"Disable LME Fault Protection, New WUTT Installation, Eng. Block Lib Update, Cal Target, Solar Array Cleaning Experiment #7, HP3 Area Imaging, VBBs on continuously, IDC Science and Tau Images",231.70,2022-05-21 17:55
+1252,1264,,"New WUTT Installation, Unsafe SEIS and APSS, SEIS Calibration (sol 1253), ODY_MSL_2022_163_04 Unreliable UHF overflight demo on Ch 0, SEIS VBBs on as long as possible, IDC Science and Tau Images",240.79,2022-06-05 03:17
+1265,1278,,"New WUTT Installation, Increase CLT to 28 days, SEIS VBBs power cycled every sol, IDC Science and Tau Images",249.26,2022-06-18 12:00
+1279,1291,,"New WUTT Installation, SEIS VBBs power cycled every sol, IDC Science and Tau Images",258.39,2022-07-02 21:24
+1292,1305,,"New WUTT Installation, SEIS VBBs power cycled every sol, IDC Science and Tau Images",266.85,2022-07-16 06:08
+1306,1319,,"New WUTT Installation, SEIS VBBs power cycled every sol, IDC Science and Tau Images",275.89,2022-07-30 15:33
+1320,1332,,"New WUTT Installation, SEIS VBBs power cycled every other sol, IDC Science and Tau Images",284.83,2022-08-14 00:56
+1333,1346,,"New WUTT Installation, SEIS VBBs power cycled every other sol, APSS PAE+28V+one of the TWINS booms, IDC Science and Tau Images",293.01,2022-08-27 09:38
+1347,1360,,"New WUTT Installation, SEIS VBBs power cycled every other sol, IDC Science and Tau Images",301.67,2022-09-10 18:59
+1361,1373,,"New WUTT Installation, SEIS VBBs power cycled every other sol, IDC Science and Tau Images",310.15,2022-09-25 04:18
+1374,1387,,"New WUTT Installation, SEIS OFF, IDC Science and Tau Images (1 per week)",317.86,2022-10-08 12:56
+1388,1400,,"New WUTT Installation, Unsafe SEIS and recovery, SEIS VBBs minimum power cycling strategy, IDC Science and Tau Images (1 per week)",325.98,2022-10-22 22:11
+1401,1414,,"New WUTT Installation, SEIS VBBs minimum power cycling strategy, IDC Science and Tau Images (1 per week)",333.34,2022-11-05 06:46
+1415,1428,,"New WUTT Installation, SEIS VBBs power cycling strategy, IDC Science and Tau Images (1 per week)",341.07,2022-11-19 15:59
+1429,1442,,"New WUTT Installation, SEIS VBBs power cycling strategy, IDC Science and Tau Images (1 per week)",348.62,2022-12-04 01:10
